@@ -1,0 +1,22 @@
+{
+  "name": "esp32-udp-broadcast-bridge",
+  "version": "1.0.0",
+  "description": "UDP broadcast bridge server for ESP32 sensor data",
+  "main": "udp_bridge.js",
+  "scripts": {
+    "start": "node udp_bridge.js",
+    "test": "echo \"No tests specified\""
+  },
+  "keywords": [
+    "esp32",
+    "udp",
+    "broadcast",
+    "websocket",
+    "sensor"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^8.14.2"
+  }
+}
